@@ -34,7 +34,7 @@ export default function Home() {
       <header className="border-b border-border bg-card">
         <div className="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-bold text-foreground">Campus Connect</h1>
+            <h1 className="md:text-3xl font-bold text-foreground">Campus Connect</h1>
             <p className="text-sm text-muted-foreground">Student Social Network</p>
           </div>
           <div className="flex gap-2">
@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="sm:max-w-6xl mx-auto px-4 py-20">
+      <main className="min-w-screen mx-auto px-4 py-20">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-foreground mb-4 text-balance">
             Connect with Your Campus Community
@@ -60,7 +60,7 @@ export default function Home() {
           <p className="text-xl text-muted-foreground mb-8 text-balance">
             Share messages with classmates, post on their walls, and build meaningful connections within your institution.
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="flex w-screen gap-4 justify-center">
             <Link href="/signup">
               <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg">
                 Create Your Account
