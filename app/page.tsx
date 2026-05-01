@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <header className="border-b border-border bg-card">
-        <div className="max-w-6xl mx-auto px-4 py-6 flex items-center justify-between">
+        <div className="w-screen mx-auto px-4 py-6 flex items-center justify-between">
           <div>
             <h1 className="md:text-3xl font-bold text-foreground">Campus Connect</h1>
             <p className="text-sm text-muted-foreground">Student Social Network</p>
@@ -62,12 +62,12 @@ export default function Home() {
           </p>
           <div className="flex w-screen gap-4 justify-center">
             <Link href="/signup">
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg">
-                Create Your Account
+              <Button size="sm" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg">
+                Get Started
               </Button>
             </Link>
             <Link href="/login">
-              <Button variant="outline" className="border-border text-foreground hover:bg-secondary px-8 py-6 text-lg">
+              <Button size="sm" variant="outline" className="border-border text-foreground hover:bg-secondary px-8 py-6 text-lg">
                 Already a Member?
               </Button>
             </Link>
