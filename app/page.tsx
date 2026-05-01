@@ -52,7 +52,7 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="max-w-6xl mx-auto px-4 py-20">
+      <main className="sm:max-w-6xl mx-auto px-4 py-20">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-foreground mb-4 text-balance">
             Connect with Your Campus Community
@@ -75,7 +75,7 @@ export default function Home() {
         </div>
 
         {/* Features */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-20">
+        <div className="grid grid-cols md:grid-cols-3 gap-8 mt-20">
           <div className="bg-card rounded-lg border-t-2 border-l-2 shadow-sm p-8 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-90">
             <div className="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center mb-4 text-xl">
               💬
