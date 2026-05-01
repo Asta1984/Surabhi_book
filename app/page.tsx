@@ -75,8 +75,8 @@ export default function Home() {
         </div>
 
         {/* Features */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
-          <div className="bg-card rounded-lg border border-border shadow-sm p-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-20">
+          <div className="bg-card rounded-lg border-t-2 border-l-2 shadow-sm p-8 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-90">
             <div className="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center mb-4 text-xl">
               💬
             </div>
@@ -84,7 +84,7 @@ export default function Home() {
             <p className="text-muted-foreground">Write up to 50 words on classmates&apos; walls to share your thoughts and messages.</p>
           </div>
 
-          <div className="bg-card rounded-lg border border-border shadow-sm p-8">
+          <div className="bg-card rounded-lg border-t-2 border-l-2 shadow-sm p-8 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-90">
             <div className="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center mb-4 text-xl">
               @
             </div>
@@ -92,7 +92,7 @@ export default function Home() {
             <p className="text-muted-foreground">Tag other students in your posts using @mentions to start conversations.</p>
           </div>
 
-          <div className="bg-card rounded-lg border border-border shadow-sm p-8">
+          <div className="bg-card rounded-lg border-t-2 border-l-2 shadow-sm p-8 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-90">
             <div className="w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center mb-4 text-xl">
               👥
             </div>

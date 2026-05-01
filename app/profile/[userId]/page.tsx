@@ -145,7 +145,7 @@ export default function UserProfilePage() {
             {/* Profile Section */}
             <div className="md:col-span-1">
               <div className="bg-card rounded-lg border border-border shadow-sm p-6">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="w-16 h-16 bg-linear-to-br from-primary to-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
                   <span className="text-white text-xl font-bold">
                     {profileUser.fullName.charAt(0).toUpperCase()}
                   </span>
